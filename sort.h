@@ -31,4 +31,13 @@ void bubble_sort(int *array, size_t size);
 void insertion_sort_list(listint_t **list);
 void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
+void shell_sort(int *array, size_t size);
+void cocktail_sort_list(listint_t **list);
+void swap_values(listint_t *swap_1, listint_t *swap_2, listint_t **list);
+int max_num(int *array, size_t size);
+void counting_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
+void sort_recursive(int *array, int *i, int p, int q);
+void merge_arrays(int *array, int *in, int p, int y, int q);
+
 #endif
